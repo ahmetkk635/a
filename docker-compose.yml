@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  streamlit:
+    image: streamlit/streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run app.py --server.port=8501

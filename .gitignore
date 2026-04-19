@@ -1,0 +1,29 @@
+# Python Best Practices .gitignore
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit folder
+.streamlit/
+
+# IDE configurations
+.vscode/
+.idea/
+*.iml
+
+# macOS specific files
+ds_store/
+
+# Windows specific files
+Thumbs.db
+*_pyd.pyd

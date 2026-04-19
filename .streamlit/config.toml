@@ -1,0 +1,13 @@
+[theme]
+   primaryColor = "#F39C12"
+   backgroundColor = "#FFFFFF"
+   font = "sans serif"
+
+[logger]
+   level = "info"
+
+[ui]
+   showSidebar = true
+   showFooter = true
+   hideMenu = false
+   hideHeader = false
